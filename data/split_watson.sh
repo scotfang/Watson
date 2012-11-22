@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
 #splits watson data into 8 chunks
-#./split_data.py data.csv 164301 1314407
+./split_data.py data.csv 164301 1314407
 
 #converts .csv chunks to arff
 CHUNKS=`find -name "c*.csv"` 

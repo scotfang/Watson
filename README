@@ -1,2 +1,6 @@
 Watson
 ======
+
+To split data.csv into 8 chunks, shuffle the lines randomly, and convert them to .arff format:
+    cp data.csv data/
+    cd data/ && ./split_watson.sh
